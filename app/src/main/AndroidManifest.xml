@@ -9,16 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practical">
-        <activity android:name=".loginInRelative">
+        <activity android:name=".EmployeeForm">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".userLoginActivity" />
+        <activity android:name=".RadioActivity"></activity>
+        <activity android:name=".Increasecounter" />
+        <activity android:name=".loginInRelative" />
         <activity android:name=".userprofile">
 
         </activity>
-        <activity android:name=".BirthdayPhoto"></activity>
+        <activity android:name=".BirthdayPhoto" />
         <activity android:name=".LoginPage" />
         <activity android:name=".MainActivity" />
     </application>
