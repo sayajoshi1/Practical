@@ -82,10 +82,19 @@ class EmployeeForm : AppCompatActivity() {
 
         //datepicker
 
-        tvjoindate.setOnClickListener {
+        tvjoindate.setOnClickListener{
 
-            loadCalendar()
+            if (flag== true){
+                loadCalendar()
+            }
+            else{
+
+            }
+
+
         }
+
+
         btnsubmit.setOnClickListener{
             tvresult.text=" Name: ${etname.text} \n department: $selectedItem \n address: ${acaddress.text} \n and your join date is ${tvjoindate.text} "
         }
@@ -121,3 +130,4 @@ class EmployeeForm : AppCompatActivity() {
 
     }
 
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustomActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter full name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email here" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <RadioButton
+            android:id="@+id/btnstudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="student"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/btnstaff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="staff"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvbatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Batch"/>
+
+    <Spinner
+        android:id="@+id/spbatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student ID"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter student ID" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Password"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Confirm password"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/etconfirmpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password again" />
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
